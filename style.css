@@ -1,0 +1,96 @@
+section {
+  width: 330px;
+  height: 370px;
+  border-radius: 8px;
+  background-color: black;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0 0 12px 2px rgb(92, 90, 90);
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+.username,
+.email {
+  height: 40px;
+  background: transparent;
+  border-radius: 25px;
+  margin-bottom: 2em;
+  text-align: center;
+  border: 2px solid cyan;
+  color: white;
+  width: 13em;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.username:focus,
+.email:focus {
+  width: 16em;
+  animation: animasi 4s infinite;
+}
+
+@keyframes animasi {
+  0% {
+    border-color: green;
+  }
+
+  10% {
+    border-color: yellow;
+  }
+
+  20% {
+    border-color: hotpink;
+  }
+
+  30% {
+    border-color: red;
+  }
+
+  40% {
+    border-color: purple;
+  }
+
+  50% {
+    border-color: yellow;
+  }
+
+  60% {
+    border-color: cyan;
+  }
+
+  70% {
+    border-color: skyblue;
+  }
+
+  80% {
+    border-color: pink;
+  }
+
+  90% {
+    border-color: red;
+  }
+
+  100% {
+    border-color: yellow;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  border: 2px solid green;
+  padding: 10px 20px;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+
+a:hover {
+  color: white;
+  background-color: green;
+}
